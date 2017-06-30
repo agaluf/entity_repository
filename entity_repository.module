@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_entity_type_alter(array &$entity_types);
+ */
+function entity_repository_entity_type_alter(array &$entity_types) {
+	$entity_types['user']->setHandlerClass('repository', '\Drupal\entity_repository\Repository\UserRepository');
+}

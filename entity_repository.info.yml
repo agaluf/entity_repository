@@ -1,0 +1,5 @@
+name: entity_repository
+type: module
+description: A sample concept for the Entity Repository Handler
+core: 8.x
+package: Entity API

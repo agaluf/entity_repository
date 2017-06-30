@@ -1,0 +1,8 @@
+entity_repository.experiment:
+  path: '/experiment'
+  defaults:
+    _controller: '\Drupal\entity_repository\Controller\ExperimentController::experiment'
+    _title: 'Experiment'
+  requirements:
+    _permission: 'access content'
+
